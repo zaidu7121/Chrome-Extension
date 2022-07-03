@@ -1,0 +1,15 @@
+{
+    "name": "Dad Jokes",
+    "version": "0.0.1",
+    "description": "Awesome Jokes To make your Day",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon1.png"
+    },
+"host_permissions":
+["http://icanhazdadjoke.com/*"],
+"icons": {
+    "128": "icon1.png"
+}
+}
